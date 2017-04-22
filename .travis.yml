@@ -1,4 +1,4 @@
-install: make dep 
+install: sudo apt-get install check 
 language: c
 script: make
 compiler: gcc
